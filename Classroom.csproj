@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11941516-3B2C-4CC0-A7E4-C4C0DAD3CB0D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Classroom</RootNamespace>
+    <AssemblyName>Classroom</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractStudentDistributor.cs" />
+    <Compile Include="AbstractHelper.cs" />
+    <Compile Include="AddClassDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddClassDialog.Designer.cs">
+      <DependentUpon>AddClassDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudentDialog.Designer.cs">
+      <DependentUpon>AddStudentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bravi.cs" />
+    <Compile Include="Class.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="EditClassDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditClassDialog.Designer.cs">
+      <DependentUpon>EditClassDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditStudentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditStudentDialog.Designer.cs">
+      <DependentUpon>EditStudentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="StudentDistributorSmart.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="StudentDistributorGrade.cs" />
+    <Compile Include="StudentDistributorHeight.cs" />
+    <Compile Include="StudentsDatabase.cs" />
+    <Compile Include="LinqToXmlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddClassDialog.resx">
+      <DependentUpon>AddClassDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudentDialog.resx">
+      <DependentUpon>AddStudentDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditClassDialog.resx">
+      <DependentUpon>EditClassDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStudentDialog.resx">
+      <DependentUpon>EditStudentDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="StudentsClasses.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

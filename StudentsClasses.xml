@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <meta>
+    <classindex>8</classindex>
+    <studindex>30</studindex>
+  </meta>
+  <class name="1A_" id="0">
+    <student name="Kristof Bergé X" id="0">
+      <grade>8.9</grade>
+      <height>180</height>
+    </student>
+    <student name="Samanta Lopes" id="1">
+      <grade>10</grade>
+      <height>173</height>
+    </student>
+    <student name="Jan De Groef" id="2">
+      <grade>9</grade>
+      <height>182</height>
+    </student>
+    <student name="Bryce MacCarmick" id="3">
+      <grade>1.8</grade>
+      <height>159</height>
+    </student>
+    <student name="Vilma Falkenrath" id="4">
+      <grade>4.5</grade>
+      <height>144</height>
+    </student>
+    <student name="Rupert Rupertson" id="5">
+      <grade>9.4</grade>
+      <height>202</height>
+    </student>
+    <student name="Philip Philips" id="6">
+      <grade>5.6</grade>
+      <height>196</height>
+    </student>
+    <student name="Frieda Fredson" id="7">
+      <grade>0.4</grade>
+      <height>195</height>
+    </student>
+    <student name="Robin Bergé" id="8">
+      <grade>6.2</grade>
+      <height>193</height>
+    </student>
+    <student name="Extra Student 8" id="10">
+      <grade>8</grade>
+      <height>143</height>
+    </student>
+    <student name="Extra Student 14" id="11">
+      <grade>5.5</grade>
+      <height>183</height>
+    </student>
+    <student name="Extra Student 20" id="12">
+      <grade>0</grade>
+      <height>164</height>
+    </student>
+    <student name="Extra Student 26" id="13">
+      <grade>5.6</grade>
+      <height>140</height>
+    </student>
+    <student name="Extra Student 32" id="14">
+      <grade>4.2</grade>
+      <height>171</height>
+    </student>
+  </class>
+  <class name="1B" id="1">
+    <student name="Pio eichel X" id="15">
+      <grade>2.4</grade>
+      <height>164</height>
+    </student>
+    <student name="John Johnson" id="16">
+      <grade>5.9</grade>
+      <height>155</height>
+    </student>
+    <student name="Extra Student 32" id="17">
+      <grade>4.2</grade>
+      <height>171</height>
+    </student>
+    <student name="Christoff Christofferson" id="18">
+      <grade>0.1</grade>
+      <height>141</height>
+    </student>
+    <student name="Wendy Testabruger" id="19">
+      <grade>7.1</grade>
+      <height>145</height>
+    </student>
+    <student name="Frieda Bergé" id="20">
+      <grade>1.5</grade>
+      <height>147</height>
+    </student>
+    <student name="Nico Bergé" id="21">
+      <grade>7.5</grade>
+      <height>145</height>
+    </student>
+    <student name="Extra Student 3" id="22">
+      <grade>3</grade>
+      <height>193</height>
+    </student>
+    <student name="Extra Student 9" id="23">
+      <grade>9</grade>
+      <height>175</height>
+    </student>
+    <student name="Extra Student 15" id="24">
+      <grade>6.6</grade>
+      <height>172</height>
+    </student>
+    <student name="Extra Student 21" id="25">
+      <grade>1.2</grade>
+      <height>167</height>
+    </student>
+    <student name="Extra Student 27" id="26">
+      <grade>7.8</grade>
+      <height>150</height>
+    </student>
+    <student name="Extra Student 33" id="27">
+      <grade>7.3</grade>
+      <height>169</height>
+    </student>
+  </class>
+  <class name="2A" id="2"></class>
+  <class name="3A" id="4"></class>
+  <class name="3B" id="5"></class>
+  <class name="1C" id="6">
+    <student name="New Student 1" id="28">
+      <grade>8</grade>
+      <height>180</height>
+    </student>
+    <student name="New Student 2" id="29">
+      <grade>7.5</grade>
+      <height>176</height>
+    </student>
+    <student id="30" name="New Student">
+      <grade>5</grade>
+      <height>180</height>
+    </student>
+  </class>
+  <class name="2C_" id="7">
+    <student name="Extra Student 2 X" id="9">
+      <grade>6</grade>
+      <height>201</height>
+    </student>
+  </class>
+</students>

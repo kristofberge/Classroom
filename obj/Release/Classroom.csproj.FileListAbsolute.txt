@@ -1,0 +1,14 @@
+C:\prog\C#\Classroom\bin\Release\Classroom.exe.config
+C:\prog\C#\Classroom\bin\Release\Classroom.exe
+C:\prog\C#\Classroom\bin\Release\Classroom.pdb
+C:\prog\C#\Classroom\obj\Release\Classroom.exe
+C:\prog\C#\Classroom\obj\Release\Classroom.pdb
+C:\prog\C#\Classroom\obj\Release\Classroom.csprojResolveAssemblyReference.cache
+C:\prog\C#\Classroom\obj\Release\Classroom.csproj.GenerateResource.Cache
+C:\prog\C#\Classroom\obj\Release\Classroom.MainForm.resources
+C:\prog\C#\Classroom\bin\Release\MySql.Data.dll
+C:\prog\C#\Classroom\obj\Release\Classroom.AddClassDialog.resources
+C:\prog\C#\Classroom\obj\Release\Classroom.AddStudentDialog.resources
+C:\prog\C#\Classroom\obj\Release\Classroom.EditClassDialog.resources
+C:\prog\C#\Classroom\obj\Release\Classroom.EditStudentDialog.resources
+C:\prog\C#\Classroom\obj\Release\Classroom.Properties.Resources.resources

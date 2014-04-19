@@ -1,0 +1,6 @@
+C:\prog\C#\Classroom\bin\Debug\Classroom.exe.config
+C:\prog\C#\Classroom\obj\Debug\Classroom.csprojResolveAssemblyReference.cache
+C:\prog\C#\Classroom\bin\Debug\Classroom.exe
+C:\prog\C#\Classroom\bin\Debug\Classroom.pdb
+C:\prog\C#\Classroom\obj\Debug\Classroom.exe
+C:\prog\C#\Classroom\obj\Debug\Classroom.pdb
